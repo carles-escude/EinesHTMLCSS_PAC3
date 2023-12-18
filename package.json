@@ -1,0 +1,25 @@
+{
+  "name": "web_v3",
+  "source": "src/index.html",
+  "version": "1.0.0",
+  "description": "EinesHTMLCSS I - PAC 1",
+  "dependencies": {
+    "cookieconsent": "^3.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@parcel/transformer-sass": "^2.10.3",
+    "cookieconsent": "^3.1.1",
+    "parcel": "latest",
+    "posthtml-include": "^1.7.4",
+    "sass": "^1.69.5"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html --no-cache",
+    "build": "parcel build src/index.html --no-cache"
+  },
+  "keywords": [],
+  "author": "carles escude <carlesescude@uoc.edu>",
+  "license": "ISC"
+}

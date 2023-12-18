@@ -1,0 +1,552 @@
+$spotify-color: #1db954;
+$spotify-color-light: #95e4b1;
+$spotify-color-light2: #5acc83;
+$back-color: #f0f0f0;
+$web_width: 840px;
+
+// PC
+@media screen and (min-width: $web_width) {
+  body {
+    font-size: 1em;
+  }
+  main {
+    max-width: $web_width;
+    margin: 0 auto;
+    padding: 20px;
+    flex: 1;
+  }
+
+  nav a {
+    padding: 15px 20px;
+  }
+
+  .container {
+    width: 600px;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 80%;
+    background-color: $spotify-color-light2;
+    padding: 2em;
+    border-radius: 15px;
+  }
+
+  section {
+    margin-bottom: 20px;
+    padding: 0em;
+  }
+  .img_cont {
+    text-align: center;
+  }
+
+  .image3 {
+    max-width: $web_width;
+  }
+
+  .webmap ul {
+    flex-direction: row;
+  }
+  .rowimg picture {
+    height: 200px;
+  }
+
+  .img_detall {
+    width: 300px;
+    height: 200px;
+  }
+
+  .img_destacada {
+    width: 840px;
+    height: 300px;
+  }
+
+  .img_capitols {
+    width: 100%;
+  }
+
+  .rowcont {
+    padding: 25px;
+    width: 540px;
+  }
+
+  .webmap,
+  .clippath,
+  .row,
+  .row2,
+  .header_img,
+  svg,
+  .svg-container {
+    width: $web_width;
+  }
+
+  .svg-container,
+  svg {
+    height: 60px;
+  }
+
+  .txtSVG {
+    font: normal 60px sans-serif;
+  }
+}
+
+// Tablet
+@media screen and (min-width: 426px) and (max-width: 839px) {
+  body {
+    font-size: 1em;
+  }
+  main {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px 0px 20px 0px;
+    flex: 1;
+  }
+
+  nav a {
+    padding: 15px 20px;
+  }
+
+  .container {
+    width: 80%;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
+
+    background-color: $spotify-color-light2;
+    padding: 2em;
+    border-radius: 15px;
+  }
+
+  section {
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  .img_cont {
+    text-align: center;
+  }
+
+  .image3 {
+    width: 90%;
+  }
+
+  .webmap ul {
+    flex-direction: row;
+  }
+
+  .webmap {
+    width: 90%;
+  }
+
+  .clippath {
+    width: 100%;
+  }
+
+  .row,
+  .row2 {
+    width: 100%;
+  }
+  .rowimg {
+    width: 90%;
+  }
+
+  .img_detall {
+    width: 100%;
+  }
+
+  .img_destacada {
+    width: 100%;
+    height: auto;
+  }
+
+  .img_capitols {
+    width: 100%;
+  }
+
+  .rowcont {
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .row2 {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .svg-container {
+    height: 60px;
+  }
+
+  .svg-container,
+  svg {
+    width: 100%;
+    height: 35px;
+  }
+
+  .txtSVG {
+    font: normal 80px sans-serif;
+  }
+}
+
+// Mobil
+@media screen and (max-width: 425px) {
+  body {
+    font-size: 0.8em;
+    width: 100%;
+  }
+
+  main {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    flex: 1;
+  }
+
+  nav a {
+    padding: 10px 7px;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10px 0;
+
+    background-color: $spotify-color-light2;
+    padding: 2em;
+  }
+
+  section {
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+
+  .capitols {
+    padding: 0;
+  }
+  .img_cont {
+    text-align: center;
+  }
+  .image3 {
+    width: 90%;
+  }
+
+  ul {
+    padding-left: 30px;
+  }
+
+  .webmap ul {
+    flex-direction: column;
+  }
+
+  .webmap {
+    width: 100%;
+  }
+
+  .clippath {
+    width: 100%;
+  }
+
+  .row,
+  .row2 {
+    width: 100%;
+  }
+  .rowimg {
+    width: 90%;
+  }
+
+  .img_detall {
+    width: 100%;
+    /*height: 150px;*/
+  }
+
+  .img_destacada {
+    width: 100%;
+    height: auto;
+  }
+
+  .img_capitols {
+    width: 100%;
+  }
+  .rowcont {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 95%;
+  }
+
+  .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .row2 {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .svg-container,
+  svg {
+    width: 80%;
+    height: 40px;
+  }
+
+  .txtSVG {
+    font: normal 40px sans-serif;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $back-color;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #171c19;
+  color: #fff;
+  padding-top: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #171c19;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+
+h1,
+h2 {
+  margin: 0.1em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0 0;
+  background-color: #333;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0;
+  background-color: #333;
+  transition: background-color 2s ease 0s;
+}
+
+nav li:hover {
+  background-color: #1db954;
+}
+
+nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  transition: color 1s ease 0s;
+}
+nav a:hover {
+  color: black;
+}
+
+.activo a,
+.activo a:hover {
+  background-color: #555;
+  color: $spotify-color;
+}
+
+section a {
+  color: white;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: x-large;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: large;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.image {
+  margin: 10px;
+  width: 200px;
+}
+
+.image2 {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: medium;
+  margin: 0 0.1em 0.1em 0.1em;
+  padding: 10px;
+  background-color: $spotify-color-light;
+  border-radius: 0px 0px 10px 10px;
+  color: #333;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.links {
+  font-size: medium;
+  color: $spotify-color;
+  text-decoration: none;
+}
+
+.webmap {
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.webmap ul {
+  display: flex;
+}
+
+.webmap ul li {
+  list-style-type: none;
+}
+
+.webmap ul li a {
+  font-size: medium;
+  color: $spotify-color;
+  text-decoration: none;
+}
+main {
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.logoSpotify {
+  margin: auto;
+  width: 60px;
+  animation: balanceig 2s infinite ease;
+}
+
+@keyframes balanceig {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(40deg);
+  }
+
+  75% {
+    transform: rotate(-40deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.clippath {
+  clip-path: polygon(75% 20%, 85% 50%, 75% 80%, 0 80%, 15% 50%, 0 20%);
+}
+
+/* detall */
+.row {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  box-sizing: border-box;
+  background-color: $spotify-color-light;
+  padding: 0;
+  margin: 0;
+}
+.row2 {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  box-sizing: border-box;
+  background-color: $spotify-color-light2;
+}
+
+.rowimg picture {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.txtSVG {
+  fill: $spotify-color;
+}
+.svg-container {
+  resize: both;
+  overflow: hidden;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+svg {
+  animation: fadeIn 1s ease-in infinite alternate;
+  width: 95%;
+  height: 95%;
+}
+.header_img {
+  margin: auto;
+}
+
+picture source {
+  padding: 0;
+  margin: 0;
+}
+
+.img_destacada {
+  border-radius: 30px 30px 0px 0px;
+  border-color: $back-color;
+  border-width: 0px 0px 1rem 0px;
+  border-style: solid;
+}
+
+.img_capitols {
+  border-radius: 20px 20px 0px 0px;
+}
+
+picture {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
