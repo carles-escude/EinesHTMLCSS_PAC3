@@ -356,6 +356,7 @@ nav a {
   color: #fff;
   text-decoration: none;
   transition: color 1s ease 0s;
+  background-color: #333;
 }
 nav a:hover {
   color: black;
@@ -363,7 +364,7 @@ nav a:hover {
 
 .activo a,
 .activo a:hover {
-  background-color: #555;
+  background-color: #333;
   color: $spotify-color;
 }
 
@@ -401,7 +402,7 @@ section a {
 
 .description {
   font-size: medium;
-  margin: 0 0.1em 0.1em 0.1em;
+  margin: 0;
   padding: 10px;
   background-color: $spotify-color-light;
   border-radius: 0px 0px 10px 10px;
@@ -549,4 +550,7 @@ picture {
   display: block;
   padding: 0;
   margin: 0;
+}
+.rowcont {
+  color: #333;
 }
