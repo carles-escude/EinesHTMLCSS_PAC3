@@ -1,3 +1,5 @@
+//import { onCLS, onFID, onLCP } from 'web-vitals';
+
 window.addEventListener("load", function(){
     window.cookieconsent.initialise({
       "palette": {
@@ -16,3 +18,16 @@ window.addEventListener("load", function(){
       }
     });
   });
+
+/*
+function sendToAnalytics(metric) {
+  const body = JSON.stringify(metric);
+  // Use `navigator.sendBeacon()` if available, falling back to `fetch()`.
+  (navigator.sendBeacon && navigator.sendBeacon('/analytics', body)) ||
+    fetch('/analytics', {body, method: 'POST', keepalive: true});
+}
+
+onCLS(sendToAnalytics);
+onFID(sendToAnalytics);
+onLCP(sendToAnalytics);
+*/
