@@ -1,6 +1,6 @@
 $spotify-color: #1db954;
 $spotify-color-light: #95e4b1;
-$spotify-color-light2: #5acc83;
+$spotify-color-light2: #2a844c;
 $back-color: #f0f0f0;
 $web_width: 840px;
 
@@ -43,7 +43,8 @@ $web_width: 840px;
   }
 
   .image3 {
-    max-width: $web_width;
+    width: $web_width;
+    height: 1244px;
   }
 
   .webmap ul {
@@ -64,7 +65,8 @@ $web_width: 840px;
   }
 
   .img_capitols {
-    width: 100%;
+    width: 672px;
+    height: 378px;
   }
 
   .rowcont {
@@ -81,6 +83,9 @@ $web_width: 840px;
   .svg-container {
     width: $web_width;
   }
+  .clippath {
+    height: 473px;
+  }
 
   .svg-container,
   svg {
@@ -89,6 +94,16 @@ $web_width: 840px;
 
   .txtSVG {
     font: normal 60px sans-serif;
+  }
+
+  .header_img picture img {
+    width: 800px;
+    height: 150px;
+  }
+
+  .image {
+    width: 200px;
+    height: 112px;
   }
 }
 
@@ -196,6 +211,15 @@ $web_width: 840px;
   .txtSVG {
     font: normal 80px sans-serif;
   }
+
+  .header_img picture img {
+    width: 100%;
+  }
+
+  .image {
+    width: 200px;
+    height: 112px;
+  }
 }
 
 // Mobil
@@ -302,6 +326,14 @@ $web_width: 840px;
   .txtSVG {
     font: normal 40px sans-serif;
   }
+
+  .header_img picture img {
+    width: 100%;
+  }
+
+  .image {
+    width: 200px;
+  }
 }
 
 body {
@@ -392,7 +424,6 @@ section a {
 
 .image {
   margin: 10px;
-  width: 200px;
 }
 
 .image2 {
@@ -415,8 +446,8 @@ p {
 }
 
 .links {
-  font-size: medium;
-  color: $spotify-color;
+  font-size: large;
+  color: $spotify-color-light2;
   text-decoration: none;
 }
 
@@ -432,6 +463,7 @@ p {
 
 .webmap ul li {
   list-style-type: none;
+  padding: 10px;
 }
 
 .webmap ul li a {
@@ -551,6 +583,9 @@ picture {
   padding: 0;
   margin: 0;
 }
-.rowcont {
+.row .rowcont {
   color: #333;
+}
+.row2 .rowcont {
+  color: #fff;
 }
